@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://northross:Beachmont6^@contactkeeper.v5bms.mongodb.net/<dbname>?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://northross:Beachmont6^@contactkeeper.v5bms.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "jwtSecret": "secret"
 }
