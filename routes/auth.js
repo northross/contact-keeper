@@ -12,6 +12,7 @@ const config = require('config');
 // @access    Private
 router.get('/', auth, async (req, res) => {
   try {
+    // search user model for that id and it is subtracting password
     const user = await User.findById(req.user.id).select('-password');
     res.json(user);
   } catch (error) {
