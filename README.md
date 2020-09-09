@@ -9,15 +9,15 @@
 
 ## Contact Keeper - Unauthorized UI
 
-<img src="https://imgur.com/MKpVseo.png" width="800">
+<img src="https://imgur.com/b58dLKN.png" width="800">
 
 ## Contact Keeper - Authorized UI
 
-<img src="https://imgur.com/ucoDO9U.png" width="800">
+<img src="https://imgur.com/17es2jP.png" width="800">
 
 ## Contact Keeper - Filtering Contacts
 
-<img src="https://imgur.com/4tjUl0o.png" width="800">
+<img src="https://imgur.com/696TeAZ.png" width="800">
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
