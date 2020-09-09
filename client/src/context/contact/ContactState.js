@@ -25,7 +25,7 @@ const ContactState = (props) => {
 
   const [state, dispatch] = useReducer(contactReducer, initialState);
 
-  // get contacts
+  // Get Contacts
   const getContacts = async () => {
     try {
       const res = await axios.get('/api/contacts');
@@ -34,10 +34,10 @@ const ContactState = (props) => {
         type: GET_CONTACTS,
         payload: res.data,
       });
-    } catch (error) {
+    } catch (err) {
       dispatch({
         type: CONTACT_ERROR,
-        payload: error.response.msg,
+        payload: err.response.msg,
       });
     }
   };
